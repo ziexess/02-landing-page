@@ -79,5 +79,40 @@ a {
 }
 
 .hero button:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increase shadow on hover */
+}
+
+.subheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.info {
+    padding: 10px;
+    text-align: center;
+}
+
+.info p {
+    font-size: 22px;
+font-weight: 600;
+}
+
+.info img {
+    border: solid 5px #3882f6;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight:800;
+    color:#1f2937;
+    padding: 20px;
 }
